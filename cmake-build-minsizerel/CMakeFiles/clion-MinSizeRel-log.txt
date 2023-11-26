@@ -1,0 +1,4 @@
+"C:\Users\porches\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=MinSizeRel "-DCMAKE_MAKE_PROGRAM=C:/Users/porches/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" "-DCMAKE_C_COMPILER=C:/Program Files/LLVM/bin/clang.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/LLVM/bin/clang++.exe" -G Ninja -S D:\Projects\MinHook -B D:\Projects\MinHook\cmake-build-minsizerel
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/Projects/MinHook/cmake-build-minsizerel

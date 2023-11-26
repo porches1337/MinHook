@@ -1,0 +1,7 @@
+D:/Projects/MinHook/cmake-build-minsizerel/CMakeFiles/minhook.dir
+D:/Projects/MinHook/cmake-build-minsizerel/CMakeFiles/edit_cache.dir
+D:/Projects/MinHook/cmake-build-minsizerel/CMakeFiles/rebuild_cache.dir
+D:/Projects/MinHook/cmake-build-minsizerel/CMakeFiles/list_install_components.dir
+D:/Projects/MinHook/cmake-build-minsizerel/CMakeFiles/install.dir
+D:/Projects/MinHook/cmake-build-minsizerel/CMakeFiles/install/local.dir
+D:/Projects/MinHook/cmake-build-minsizerel/CMakeFiles/install/strip.dir

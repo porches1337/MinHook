@@ -1,0 +1,5 @@
+# ninja log v5
+3	280	7227155844756270	CMakeFiles/minhook.dir/src/hde/hde64.c.obj	a65f58d893bba746
+2	298	7227155844941662	CMakeFiles/minhook.dir/src/trampoline.c.obj	173f639cae2a43a1
+0	299	7227155844961668	CMakeFiles/minhook.dir/src/hook.c.obj	c847544efc80f252
+299	333	7227155845261732	minhook.x64.lib	af7ff1aeda8a73d7

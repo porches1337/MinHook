@@ -1,7 +1,0 @@
-D:/Projects/MinHook/cmake-build-debug/CMakeFiles/minhook.dir
-D:/Projects/MinHook/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Projects/MinHook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Projects/MinHook/cmake-build-debug/CMakeFiles/list_install_components.dir
-D:/Projects/MinHook/cmake-build-debug/CMakeFiles/install.dir
-D:/Projects/MinHook/cmake-build-debug/CMakeFiles/install/local.dir
-D:/Projects/MinHook/cmake-build-debug/CMakeFiles/install/strip.dir

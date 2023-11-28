@@ -36,15 +36,15 @@ set(MINHOOK_PATCH_VERSION 3)
 set(MINHOOK_VERSION ${MINHOOK_MAJOR_VERSION}.${MINHOOK_MINOR_VERSION}.${MINHOOK_PATCH_VERSION})
 
 ################
-#    BUILD     # 
+#    BUILD     #
 ################
 
 option(BUILD_SHARED_LIBS "build shared version" OFF)
 
-set(SOURCES_MINHOOK 
-  "src/buffer.cpp"
-  "src/hook.c"
-  "src/trampoline.c"
+set(SOURCES_MINHOOK
+        "src/buffer.cpp"
+        "src/hook.c"
+        "src/trampoline.c"
 )
 
 if(CMAKE_SIZEOF_VOID_P EQUAL 8)
@@ -56,8 +56,8 @@ endif()
 add_library(minhook ${SOURCES_MINHOOK} ${SOURCES_HDE} ${RESOURCES})
 
 target_include_directories(minhook PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/>
-  $<INSTALL_INTERFACE:include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/>
+        $<INSTALL_INTERFACE:include>
 )
 
 target_include_directories(minhook PRIVATE "src/")
@@ -65,7 +65,7 @@ target_include_directories(minhook PRIVATE "src/hde/")
 
 if(WIN32)
   set_target_properties(minhook PROPERTIES PREFIX "")
-  if(CMAKE_SIZEOF_VOID_P EQUAL 8)   
+  if(CMAKE_SIZEOF_VOID_P EQUAL 8)
     set_target_properties(minhook PROPERTIES DEBUG_POSTFIX ".x64d")
     set_target_properties(minhook PROPERTIES RELEASE_POSTFIX ".x64")
     set_target_properties(minhook PROPERTIES RELWITHDEBINFO_POSTFIX ".x64")
@@ -83,7 +83,7 @@ else()
 endif()
 
 ################
-# CMAKE CONFIG # 
+# CMAKE CONFIG #
 ################
 
 ###################
@@ -98,14 +98,14 @@ install(TARGETS minhook
 )
 
 install(
-  EXPORT
-    minhook-targets
-  NAMESPACE 
-    minhook::
-  DESTINATION 
-    "lib/minhook"
+        EXPORT
+        minhook-targets
+        NAMESPACE
+        minhook::
+        DESTINATION
+        "lib/minhook"
 )
 
 install(
-  DIRECTORY include DESTINATION .
+        DIRECTORY include DESTINATION .
 )
